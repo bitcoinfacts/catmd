@@ -1,0 +1,5 @@
+package: github.com/joaofnfernandes/md2pdf
+import:
+- package: github.com/gernest/front
+- package: github.com/codegangsta/cli
+  version: ^1.20.0
