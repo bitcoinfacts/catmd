@@ -3,3 +3,5 @@ import:
 - package: github.com/gernest/front
 - package: github.com/codegangsta/cli
   version: ^1.20.0
+- package: gopkg.in/yaml.v2
+  version: ~2.2.1

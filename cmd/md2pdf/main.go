@@ -1,11 +1,12 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os"
 
 	"github.com/codegangsta/cli"
+	"github.com/joaofnfernandes/md2pdf/reader"
+	"github.com/joaofnfernandes/md2pdf/writer"
 )
 
 const (
@@ -46,7 +47,7 @@ func runAction(c *cli.Context) error {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("SUCCESS: %v", userOpts)
-
+	articles := reader.Read(userOpts.orderFile, userOpts.pathDir)
+	writer.Write(articles, userOpts.out)
 	return nil
 }

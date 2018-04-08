@@ -1,0 +1,13 @@
+- title: Glacier overview
+  docs:
+  - overview
+  - overview/key-concepts
+- title: Before you start
+  docs:
+- title: Setup
+  docs:
+  - setup/verify
+  - setup/non-quarantined-hardware
+  - setup/quarantined-hardware
+- title: Deposit
+  docs:
