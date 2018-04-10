@@ -1,4 +1,4 @@
-package: github.com/joaofnfernandes/md2pdf
+package: github.com/joaofnfernandes/catmd
 import:
 - package: github.com/gernest/front
 - package: github.com/codegangsta/cli
