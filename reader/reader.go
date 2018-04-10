@@ -3,11 +3,11 @@ package reader
 import (
 	"log"
 
-	"github.com/joaofnfernandes/md2pdf/reader/jekyll"
-	"github.com/joaofnfernandes/md2pdf/reader/urlparser"
+	"github.com/joaofnfernandes/catmd/reader/jekyll"
+	"github.com/joaofnfernandes/catmd/reader/urlparser"
 )
 
-// md2pdf docs_toc.yml _docs bin/glacier.md
+// catmd docs_toc.yml _docs bin/glacier.md
 
 // Read reads the yaml file used in to render the left nav
 // of the glacier docs, parses and cleans all those markdown

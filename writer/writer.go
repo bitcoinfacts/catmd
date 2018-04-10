@@ -6,17 +6,18 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/joaofnfernandes/md2pdf/reader"
+	"github.com/joaofnfernandes/catmd/reader"
 )
 
 const jekyllFrontMatter = `---
-title: Glacier Protocol
----
-`
+layout: pdf
+permalink: /pdf.html
+---`
 
 // TODO: add jekyll front matter
 func Write(jekyllArticles []reader.ProcessedArticle, outputPath string) {
 	var buf bytes.Buffer
+	buf.WriteString(fmt.Sprintf("%s\n\n", jekyllFrontMatter))
 	for _, article := range jekyllArticles {
 		buf.WriteString(fmt.Sprintf("%s\n\n", article.NewBody))
 	}
