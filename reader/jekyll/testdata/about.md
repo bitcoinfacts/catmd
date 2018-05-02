@@ -12,3 +12,9 @@ manner. It is intended for:
 * [one more](http://example.org)
 
 And a paragraph [containing another url](/example) in the middle of a sentence.
+
+## Background
+
+### Self-Managed Storage vs. Online
+
+Let's start by assessing whether Glacier is right for you.

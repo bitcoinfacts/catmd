@@ -18,7 +18,7 @@ func validateFlags(c *cli.Context) (opts, error) {
 		pathDir:   c.String(pathDirFlagName),
 		out:       c.String(outFlagName),
 	}
-
+	// TODO: print all missing flags, not just one at a time
 	errorMsg := "Usage: catmd --%s <path>"
 	if userOpts.orderFile == "" {
 		return opts{}, fmt.Errorf(errorMsg, orderFileFlagName)

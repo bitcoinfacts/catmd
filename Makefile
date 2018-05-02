@@ -8,3 +8,8 @@ BUILD?=-dev
 image:
 	@docker build --build-arg REPO=$(REPO) -t $(REPO):$(TAG) .
 	@echo "Docker image created: $(REPO):$(TAG)"
+
+.PHONY: push
+push: image
+	@docker push $(REPO):$(TAG)
+	

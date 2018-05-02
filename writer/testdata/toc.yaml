@@ -1,0 +1,7 @@
+- title: Section one
+  docs:
+  - md_1
+  - md_2
+- title: Section two
+  docs:
+  - md_3

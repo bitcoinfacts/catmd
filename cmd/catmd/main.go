@@ -47,7 +47,7 @@ func runAction(c *cli.Context) error {
 	if err != nil {
 		log.Fatal(err)
 	}
-	articles := reader.Read(userOpts.orderFile, userOpts.pathDir)
-	writer.Write(articles, userOpts.out)
+	book := reader.Read(userOpts.orderFile, userOpts.pathDir)
+	writer.Write(book, userOpts.out)
 	return nil
 }
