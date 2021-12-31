@@ -7,9 +7,9 @@ import (
 	"log"
 	"regexp"
 
-	"github.com/joaofnfernandes/catmd/reader"
-	"github.com/joaofnfernandes/catmd/reader/jekyll"
-	"github.com/joaofnfernandes/catmd/reader/urlparser"
+	"catmd/reader"
+	"catmd/reader/jekyll"
+	"catmd/reader/urlparser"
 )
 
 func Write(book reader.Book, outputPath string) {

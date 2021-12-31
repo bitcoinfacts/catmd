@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/codegangsta/cli"
-	"github.com/joaofnfernandes/catmd/reader"
-	"github.com/joaofnfernandes/catmd/writer"
+	"catmd/reader"
+	"catmd/writer"
 )
 
 const (

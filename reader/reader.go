@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/joaofnfernandes/catmd/reader/jekyll"
+	"catmd/reader/jekyll"
 )
 
 // Book represents the Glacier PDF which has multiple sections,

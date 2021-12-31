@@ -3,7 +3,7 @@ package writer
 import (
 	"testing"
 
-	"github.com/joaofnfernandes/catmd/reader/jekyll"
+	"catmd/reader/jekyll"
 )
 
 func TestAddTitleToArticleBody(t *testing.T) {
